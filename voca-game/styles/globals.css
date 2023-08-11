@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Tapestry&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgLogin {
+  background-color: #131167;
+}
+
+.bgLogin2 {
+  background-color: #d38122;
+}
+
+.bg-hero {
+  fill: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  opacity: 0.15;
+  @apply bg-gray-600;
+}
+
+.text1 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.667px;
+}
+
+.text2 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+.text3 {
+  color: var(--black, #20184e);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 76.8px */
+  letter-spacing: -3.2px;
+  text-transform: capitalize;
+}
+
+.text4 {
+  color: #666;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.text5 {
+  color: #666;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+}
+
+.text6 {
+  color: #131167;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+}
+
+.text7 {
+  color: #666;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+  @apply font-rob;
+}
+
+.text8 {
+  color: #1b196c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  @apply font-rob;
+}
+
+.text9 {
+  color: #131167;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+  @apply font-rob;
+}
+
+.text10 {
+  color: #424242;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+  @apply font-rob;
+}
+.border1 {
+  border: 1px solid #494949;
+}
+
+.pl1 {
+  color: #494949;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.bgBTN {
+  background: #e5e7fd;
+}
+
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #68d391;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  background: #68d391;
+}
