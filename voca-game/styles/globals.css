@@ -8,10 +8,6 @@
   background-color: #131167;
 }
 
-.bgLogin2 {
-  background-color: #d38122;
-}
-
 .bg-hero {
   fill: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
   opacity: 0.15;
@@ -130,4 +126,51 @@
 
 .toggle-checkbox:checked + .toggle-label {
   background: #68d391;
+}
+
+/* Register Page */
+.border2 {
+  border: 1px solid #fff;
+}
+
+.text11 {
+  color: var(--gray-6, #f2f2f2);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 76.8px */
+  letter-spacing: -3.2px;
+  text-transform: capitalize;
+  @apply font-rob;
+}
+
+@media (max-width: 480px) {
+  .text11 {
+    color: var(--gray-6, #f2f2f2);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 76.8px */
+    letter-spacing: -3.2px;
+    text-transform: capitalize;
+    @apply font-rob;
+  }
+}
+
+.text12 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  @apply font-rob;
+}
+
+.text13 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+  @apply font-rob;
 }
