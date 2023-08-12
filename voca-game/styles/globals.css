@@ -35,7 +35,7 @@
 
 .text3 {
   color: var(--black, #20184e);
-  font-size: 64px;
+
   font-style: normal;
   font-weight: 800;
   line-height: 120%; /* 76.8px */
@@ -135,26 +135,12 @@
 
 .text11 {
   color: var(--gray-6, #f2f2f2);
-  font-size: 64px;
   font-style: normal;
   font-weight: 800;
   line-height: 120%; /* 76.8px */
   letter-spacing: -3.2px;
   text-transform: capitalize;
   @apply font-rob;
-}
-
-@media (max-width: 480px) {
-  .text11 {
-    color: var(--gray-6, #f2f2f2);
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 120%; /* 76.8px */
-    letter-spacing: -3.2px;
-    text-transform: capitalize;
-    @apply font-rob;
-  }
 }
 
 .text12 {
@@ -172,5 +158,42 @@
   font-style: normal;
   font-weight: 700;
   line-height: 160%; /* 28.8px */
+  @apply font-rob;
+}
+
+.text14 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  @apply font-rob;
+}
+
+.text15 {
+  color: var(--6-f-6-f-6-f, #6f6f6f);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  @apply font-rob;
+}
+
+.text16 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px; /* 83.333% */
+  @apply font-rob;
+}
+
+.text17 {
+  color: #dc2626;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
   @apply font-rob;
 }
