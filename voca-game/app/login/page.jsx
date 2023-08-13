@@ -70,10 +70,10 @@ const LoginPage = () => {
             </div>
             <div className="text1 font-rob mt-36">LOREM</div>
             <div className="text2 font-rob max-w-sm font-light">
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit..." "There is no one who loves pain
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit... There is no one who loves pain
               itself, who seeks after it and wants to have it, simply because it
-              is pain..."
+              is pain...
             </div>
             <img src="slider.svg" alt="" />
           </div>

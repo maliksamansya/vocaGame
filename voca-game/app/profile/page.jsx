@@ -62,10 +62,10 @@ const ProfilePage = () => {
           <div className="flex flex-col space-y-3 justify-center items-center bg-[#131167] py-6 mt-6 rounded-none p-6 dark:bg-[#D38122] md:mx-24 md:rounded-lg">
             <div className="text1 font-rob">LOREM</div>
             <div className="text2 font-rob max-w-sm font-light">
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit..." "There is no one who loves pain
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit... There is no one who loves pain
               itself, who seeks after it and wants to have it, simply because it
-              is pain..."
+              is pain...
             </div>
           </div>
           {/* Profile */}
