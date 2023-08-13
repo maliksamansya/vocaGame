@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=Yokjzp91A4o&t=878s (redux toolkit)
+https://www.youtube.com/watch?v=IUbNmsk9diY (Next.js jwt authentication protected routes httpOnly cookie with App Directory)

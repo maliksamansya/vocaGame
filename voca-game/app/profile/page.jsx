@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-const page = () => {
+const ProfilePage = () => {
   const router = useRouter();
   const [isChecked, setIsChecked] = useState(false); // Step 1
   function handleChange(event) {
@@ -172,4 +172,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ProfilePage;
