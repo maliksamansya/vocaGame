@@ -1,0 +1,200 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "user",
+      "role": "customer",
+      "phoneNumber": "08233223890",
+      "address": "Pasar Regional Tanah Abang Bl B Los J/6 Lantai I, Dki Jakarta"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Burvik",
+      "slug": "Burvik",
+      "overview": "Side table, white, 15\"",
+      "description": "The side table is light and small enough to lift with one hand, and the handle makes it easy to carry around the home. The handle is bent in a way that gives you a good grip and good balance when carrying things on the table. Thanks to the height of the handle there’s enough room for things like bottles and vases. The table top has extra high edges, so that things don’t slide off when you carry the side table. The clear-lacquered surface is easy to wipe clean and is stain resistant. The self-adjusting plastic feet provide increased stability. Easy to assemble without tools or screws. Max load on table top: 11 lbs. Only for indoor use. Possible to separate for recycling or energy recovery if available in your community.",
+      "price": 499000,
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/512/0551240_PE658473_S4.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Teodores",
+      "slug": "Teodores",
+      "overview": "Chair, white",
+      "description": "The chair is easy to store when not in use, since you can stack up to 6 chairs on top of each other. Possible to separate for recycling or energy recovery if available in your community.",
+      "price": 425000,
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/273/0727344_PE735616_S4.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "name": "Tossberg",
+      "slug": "Tossberg",
+      "overview": "Chair, metal black/gray",
+      "description": "The upholstered seat and comfortable angle of the backrest make the chair perfect for long dinners. The chair is more comfortable because it has armrests and a rounded back. The armrests are long enough to provide support when you lean back and short enough to allow you to sit as close to the table as you like when eating. You sit comfortably thanks to the shaped back. The powder-coated steel frame is both sturdy and durable. The chair can be pushed under the table so that it takes up less space when not in use. May be completed with FIXA stick-on floor protectors to protect the underlying surface against wear. Possible to separate for recycling or energy recovery if available in your communit ",
+      "price": 3995000,
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/619/0661921_PE712124_S4.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "name": "Klippan",
+      "slug": "Klippan",
+      "overview": "Loveseat, Vissle gray",
+      "description": "Durable metal springs in the seat give the sofa a springy comfort, allowing you to sit, relax and enjoy it for many years. The fixed BOMSTAD cover is made of a durable material that both feels and looks like leather. The material consists of polyester and cotton and has a protective coating of polyurethane. The cover is easy to keep clean as it can be wiped with a damp sponge or a mild detergent. 10-year limited warranty. Read about the terms in the limited warranty brochure.",
+      "price": 2995000,
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/399/0239990_PE379591_S4.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 5,
+      "name": "Kallax",
+      "slug": "Kallax",
+      "overview": "Shelf unit, white, 30 3/8x57 7/8 \"",
+      "description": "The simple design with clean lines makes KALLAX flexible and easy to use at home. The smooth surfaces and the rounded edges give the shelving unit a well-thought-out and solid look. The shelves align perfectly with the frame to create a strong and uniform style. The flexible and adaptable construction makes it possible for you to enjoy your KALLAX for many years, even when your needs change or when you move. Choose whether to place it standing and use it as a shelving unit or lying and use it as a sideboard. Display your favorite items on the open shelves or add inserts to create a personalized solution with closed storage. Different wall materials require different types of fasteners. Use fasteners suitable for the walls in your home. Two people are needed to assemble this furniture. This furniture can take a max load of 55 lbs. on the top. May be completed with KALLAX insert, sold separately. Coordinates well with pieces of furniture in the LACK series that have the same timeless expression and material as KALLAX. Complete with KALLAX underframe to give this shelving unit a new look while making it easier to vacuum underneath. KALLAX underframe sold separately.",
+      "price": 1199000,
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/447/0644757_PE702939_S4.jpg",
+      "categoryId": 3,
+      "authorId": 1
+    },
+    {
+      "name": "Kursi",
+      "slug": "Kursi",
+      "description": "asdf",
+      "price": "2345",
+      "mainImg": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/512/0551240_PE658473_S4.jpg",
+      "categoryId": 2,
+      "authorId": 1,
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Table"
+    },
+    {
+      "id": 2,
+      "name": "Chair"
+    },
+    {
+      "id": 3,
+      "name": "Storage"
+    },
+    {
+      "name": "Kursi",
+      "id": 4
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/357/0835790_PE667051_S4.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/357/0835770_PE667049_S4.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/357/0835768_PE667048_S4.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/103/1010338_PH163577_S4.jpg"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/273/0727344_PE735616_S4.jpg"
+    },
+    {
+      "id": 6,
+      "productId": 2,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/708/0870801_PE640070_S4.jpg"
+    },
+    {
+      "id": 7,
+      "productId": 2,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/715/0871536_PE640577_S4.jpg"
+    },
+    {
+      "id": 8,
+      "productId": 2,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/708/0870804_PE640576_S4.jpg"
+    },
+    {
+      "id": 9,
+      "productId": 3,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/619/0661921_PE712124_S4.jpg"
+    },
+    {
+      "id": 10,
+      "productId": 3,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/714/0871477_PE712123_S4.jpg"
+    },
+    {
+      "id": 11,
+      "productId": 3,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/714/0871494_PE712126_S4.jpg"
+    },
+    {
+      "id": 12,
+      "productId": 3,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/714/0871481_PE712125_S4.jpg"
+    },
+    {
+      "id": 13,
+      "productId": 4,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/209/0820948_PE709146_S4.jpg"
+    },
+    {
+      "id": 14,
+      "productId": 4,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/209/0820907_PE709145_S4.jpg"
+    },
+    {
+      "id": 15,
+      "productId": 4,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/214/0721437_PH143338_S4.jpg"
+    },
+    {
+      "id": 16,
+      "productId": 4,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/209/0820947_PE585607_S4.jpg"
+    },
+    {
+      "id": 17,
+      "productId": 5,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/513/1051325_PE845148_S4.jpg"
+    },
+    {
+      "id": 18,
+      "productId": 5,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/991/1099106_PE865602_S4.jpg"
+    },
+    {
+      "id": 19,
+      "productId": 5,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/847/1084790_PE859876_S4.jpg"
+    },
+    {
+      "id": 20,
+      "productId": 5,
+      "imgUrl": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/847/1084799_PE859885_S4.jpg"
+    }
+  ]
+}

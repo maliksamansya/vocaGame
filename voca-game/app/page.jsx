@@ -3,8 +3,17 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useDispatch } from "react-redux";
+import { registerUser } from "../redux/action";
+
 const Home = () => {
+  const dispatch = useDispatch();
   const router = useRouter();
+  const [formData, setFormData] = useState({
+    username: "",
+    phoneNumber: "",
+    password: "",
+  });
   const [isChecked, setIsChecked] = useState(false); // Step 1
   function handleChange(event) {
     setIsChecked(!isChecked); // Step 3: Toggle the checkbox state
@@ -15,8 +24,17 @@ const Home = () => {
     }
   }
 
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
   function handleSubmit(e) {
     e.preventDefault();
+    dispatch(registerUser(formData));
     router.push("/login");
   }
   return (
@@ -64,12 +82,16 @@ const Home = () => {
             <form action="" onSubmit={handleSubmit} className="w-full">
               {/* username field */}
               <p className="text13 self-start font-rob md:self-start mt-6">
-                Nama Anda
+                Username
               </p>
+              {/* <><</></></> */}
               <input
                 type="text"
+                name="username"
+                value={formData.username}
+                onChange={handleInputChange}
                 className="cursor-pointer py-3 px-5 w-full rounded-l-full rounded-r-full bg-[#131167] border2 text-white placeholder:outline-none dark:bg-[#d38122]"
-                placeholder="Ketik nama anda disini..."
+                placeholder="Ketik username anda disini..."
               />
 
               {/* Nomor Handphone */}
@@ -78,6 +100,9 @@ const Home = () => {
               </p>
               <input
                 type="text"
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleInputChange}
                 className="cursor-pointer py-3 px-5 w-full rounded-l-full rounded-r-full border2 bg-[#131167] text-white placeholder: outline-none dark:bg-[#d38122]"
                 placeholder="Nomor handphone anda"
               />
@@ -89,6 +114,9 @@ const Home = () => {
               <div className="w-full relative">
                 <input
                   type="text"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleInputChange}
                   className="cursor-pointer py-3 px-5 w-full rounded-l-full rounded-r-full border2 bg-[#131167] text-white placeholder: outline-none dark:bg-[#d38122]"
                   placeholder="Masukkan password anda"
                 />

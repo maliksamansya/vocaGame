@@ -5,8 +5,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import axios, { AxiosError } from "axios";
 import swal from "sweetalert";
+import { useDispatch, useSelector } from "react-redux";
+import { logIn, test } from "../../redux/features/auth-slice";
 
 const LoginPage = () => {
+  const dispatch = useDispatch();
+  const state = useSelector((state) => state.authReducer);
   const router = useRouter();
   const [isChecked, setIsChecked] = useState(false); // Step 1
   function handleChange(event) {
@@ -17,7 +21,7 @@ const LoginPage = () => {
       document.documentElement.classList.remove("dark");
     }
   }
-
+  console.log(state);
   function handleSubmit(e) {
     e.preventDefault();
     router.push(`/profile`);
@@ -31,26 +35,23 @@ const LoginPage = () => {
       password: event.currentTarget.password.value,
     };
 
-    // console.log(payload);
+    console.log(payload, "<<<<<");
+    dispatch(logIn(payload));
+    // router.push("/profile");
 
-    try {
-      const { data } = await axios.post("/api/auth/login", payload);
+    // try {
+    //   const { data } = await axios.post("/api/auth/login", payload);
 
-      alert(JSON.stringify(data));
+    //   alert(JSON.stringify(data));
 
-      // redirect the user to /dashboard
-      router.push("/profile");
-    } catch (e) {
-      // const error = e as AxiosError;
-      // alert(e.message);
-      console.log(e);
-      return swal("Error", e.response.data.message, "error");
-
-      // if (error.length) {
-      //   const message = error.join(", ");
-      //   return swal("Error", message, "error");
-      // }
-    }
+    //   // redirect the user to /dashboard
+    //   router.push("/profile");
+    // } catch (e) {
+    //   // const error = e as AxiosError;
+    //   // alert(e.message);
+    //   console.log(e);
+    //   return swal("Error", e.response.data.message, "error");
+    // }
   };
   return (
     <>

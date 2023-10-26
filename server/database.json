@@ -1,0 +1,40 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "user",
+      "phoneNumber": "08233223890"
+    },
+    {
+      "username": "malikal99",
+      "phoneNumber": "087788601311",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "malikal99",
+      "phoneNumber": "087788601311",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "username": "malikal99",
+      "phoneNumber": "087788601311",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "username": "malikal99",
+      "phoneNumber": "087788601311",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "username": "malikal99",
+      "phoneNumber": "087788601311",
+      "password": "12345",
+      "id": 6
+    }
+  ]
+}
