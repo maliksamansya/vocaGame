@@ -42,6 +42,10 @@ const Home = () => {
       {/* Global Container Register Page */}
       <div className="">
         <p>branch1 update lagi lagi</p>
+        <p>branch1 update lagi lagi</p>
+        <p>branch1 update lagi lagi</p>
+        <p>branch1 update lagi lagi</p>
+        <p>branch1 update lagi lagi</p>
         <p>branch2 update</p>
         <div className="py-3 bg-white">
           <div className="flex space-x-1 justify-end items-center mr-3">
